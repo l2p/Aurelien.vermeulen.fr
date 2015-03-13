@@ -19,6 +19,8 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
+        
+        <meta name="robots" content="noindex,nofollow">
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body id="top">
@@ -120,7 +122,14 @@
 					</section>
 
 					<section >
-						<blockquote style="text-align:center;">" Approchez vous, plus vous croirez en voir et plus vous vous ferez avoir ! "</blockquote>Insaisissables.
+						<ul>
+                            <li>
+                                <blockquote style="text-align:center;">" Approchez vous, plus vous croirez en voir et plus vous vous ferez avoir ! "</blockquote>Insaisissables.
+                            </li>
+                            <li>
+                                <blockquote style="text-align:center;">" Approchez vous, plus vous croirez en voir et plus vous vous ferez avoir ! "</blockquote>Insaisissables.
+                            </li>
+                        </ul>
 					</section>
 
 					<section >
@@ -129,7 +138,7 @@
 							<article class="8u 12u$(3) work-item skills-info">
 								<ul>
 										<li>
-											<p>Web developpement ( HTML5/CSS3/SASS ) <span>80%</span></p>
+											<p>Web developpement ( HTML5/CSS3/SASS/jQuery ) <span>80%</span></p>
 											<div class="skills-bg"><span class="skill1"></span></div>
 										</li>
 										<li>
@@ -139,10 +148,6 @@
 										<li>
 											<p>CMS ( WP, Joomla, Prestashop & Drupal) <span>70%</span></p>
 											<div class="skills-bg"><span class="skill3" ></span></div>
-										</li>
-										<li>
-											<p>JS ( Angular JS ) <span>30%</span></p>
-											<div class="skills-bg"><span class="skill4" ></span></div>
 										</li>
 										<li>
 											<p>PHP / MYSQL<span>80%</span></p>
@@ -161,13 +166,21 @@
 						<div class="row">
 							<article class="6u 12u$(3) work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
+								<h3>Cv en ligne</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                <blockquote>Bootstrap, HTML5, CSS3 & jQuery</blockquote>
 							</article>
 							<article class="6u$ 12u$(3) work-item">
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
+								<h3>Curricilum vitae</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                <blockquote>Photoshop</blockquote>
+							</article>
+                            <article class="6u$ 12u$(3) work-item">
+								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
+								<h3>Analytics Drupal</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                                <blockquote>Api Google Anlytics, Bootstrap, Drupal</blockquote>
 							</article>
 						</div>
 					</section>
@@ -364,7 +377,7 @@
 
 
 			   var radarChartData = {
-					labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+					labels: ["Manger", "Sorties", "Developpement", "Basket", "VideoGames", "Cinéma", "Manga"],
 					datasets: [
 						{
 							label: "My First dataset",
@@ -374,7 +387,7 @@
 							pointStrokeColor: "#fff",
 							pointHighlightFill: "#fff",
 							pointHighlightStroke: "rgba(220,220,220,1)",
-							data: [65,59,90,81,56,55,40]
+							data: [30,50,90,60,70,60,70]
 						}
 					]
 				};
@@ -411,7 +424,7 @@
 					"use strict";
 					$('.skills-info').appear(function() {
 						$('.skill1').css('width', '80%');
-						$('.skill2').css('width', '80%');
+						$('.skill2').css('width', '70%');
 						$('.skill3').css('width', '70%');
 						$('.skill4').css('width', '30%');
 						$('.skill5').css('width', '80%');
