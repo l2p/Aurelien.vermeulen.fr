@@ -1088,7 +1088,7 @@
 /* Header */
 
 	#header {
-		background-color: #1f1815;
+		background-color: rgb(76, 76, 76);
 		background-attachment: fixed;
 		background-image: url("../images/bg2.png");
 		background-repeat: no-repeat;
