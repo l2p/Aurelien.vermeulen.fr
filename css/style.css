@@ -1182,7 +1182,13 @@
 				#footer .copyright li a {
 					color: inherit;
 				}
-
+/* Projets */
+	.clear-left{
+		clear:left;		
+	}
+	.clear-right{
+		clear:right;	
+	}
 /* Main */
 
 	#main {
